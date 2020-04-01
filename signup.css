@@ -1,0 +1,59 @@
+body{
+    background: url(Images/backwater4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+marquee{
+    color: gold;
+    font-family: cursive;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.wrap{
+    max-width: 350px;
+    border-radius:20px;
+    margin: auto;
+    background: black;
+    box-sizing: border-box;
+    padding: 40px;
+    color: white;
+    margin-top: 100px;
+    opacity: .7;
+
+}
+h2{
+    text-align: center;
+}
+input[type=text],input[type=password]
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 5px;
+    background: black;
+    outline: none;
+    border: none;
+    border-bottom: 1px dotted white ;
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+input[type=submit]
+{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background: grey;
+    opacity: 0.7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+input[type=submit]:hover{
+    background: rgb(53, 96, 136);
+    opacity: 0.7;
+}
